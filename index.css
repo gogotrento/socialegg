@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.logo{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.home, .explorar, .noti, .msg, .itens, .lista, .perfil, .mais {
+    margin-left: 10px;
+}
+.fa-egg{
+    color: white;
+    font-size: 40px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.fa-egg:hover{
+    color: grey;
+}
+.fa-house, .fa-hashtag, .fa-bell, .fa-envelope, .fa-bookmark, .fa-newspaper, .fa-user, .fa-circle-chevron-down{
+    color: white;
+    font-size: 20px;
+}
+.fa-house:hover{
+    color: grey;
+}
+.fa-hashtag:hover{
+    color: grey;
+}
+.fa-bell:hover{
+    color: grey;
+}
+.fa-envelope:hover{
+    color: grey;
+}
+.fa-bookmark:hover{
+    color: grey;
+}
+.fa-newspaper:hover{
+    color: grey;
+}
+.fa-user:hover{
+    color: grey;
+}
+.fa-circle-chevron-down:hover{
+    color: grey;
+}
+.itens-menu{
+    color: white;
+    display: block;
+}
+li{
+    cursor: pointer;
+    list-style-type: none;
+    margin-top: 20px;
+}
+li:hover{
+    color: grey;
+}
+ul::marker{
+    text-decoration: none;
+}
+.itens-menu{
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
