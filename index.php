@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/egg-solid.svg">
     <script src="https://kit.fontawesome.com/dc9a30c3ce.js" crossorigin="anonymous"></script>
     <title>Social Egg</title>
 </head>
@@ -23,7 +24,7 @@
                 <li><i class="fa-regular fa-newspaper"></i><a class="lista">Lista</a></li>
                 <li><i class="fa-solid fa-user"></i><a class="perfil">Perfil</a></li>
                 <li><i class="fa-solid fa-circle-chevron-down"></i><a class="mais">Mais</a></li>
-                <button type="submit" class="button-eggtar" style="width:12em; padding:15px; margin-top:5px; float:left;" onclick="pesquisar()">Eggtar</button>
+                <button type="submit" class="button-eggtar" style="width:12em; padding:15px; margin-top:20px; float:left;" onclick="pesquisar()">Eggtar</button>
             </ul>
         </div>
     </header>
@@ -40,7 +41,7 @@
     <section class="pesquisar">
         <div class="container">
             <div class="box-2">
-                <input type="text" placeholder="Buscar na socialegg">
+            <i class="fa-duotone fa-magnifying-glass"><input type="text" placeholder="Buscar na socialegg"></i>
             </div>
             <section class="moments">
                 <div class="container">
