@@ -6,7 +6,7 @@
 }
 header{
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
     width: 180px;
     min-height: 100%;
     background-color: transparent;
@@ -14,8 +14,8 @@ header{
     float: left;
 }
 .logo{
-    margin-top: 40px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 55px;
 }
 .home, .explorar, .noti, .msg, .itens, .lista, .perfil, .mais {
     margin-left: 10px;
@@ -90,6 +90,8 @@ ul::marker{
     display: inline-block;
     width: 300px;
     height: 50%;
+    margin-top: 10px;
+    margin-left: -70px;
 }
 .box{
     background: transparent;
@@ -193,4 +195,8 @@ ul::marker{
 .box-moments h1{
     background-color: rgb(46, 45, 45);
     font-family: 'Open-Sans', sans-serif;
+}
+
+input{
+    text-align: center;
 }

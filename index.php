@@ -40,7 +40,7 @@
     <section class="pesquisar">
         <div class="container">
             <div class="box-2">
-                <input type="text" placeholder="       Buscar na socialegg">
+                <input type="text" placeholder="Buscar na socialegg">
             </div>
             <section class="moments">
                 <div class="container">
