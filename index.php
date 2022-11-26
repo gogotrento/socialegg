@@ -23,7 +23,7 @@
                 <li><i class="fa-regular fa-newspaper"></i><a class="lista">Lista</a></li>
                 <li><i class="fa-solid fa-user"></i><a class="perfil">Perfil</a></li>
                 <li><i class="fa-solid fa-circle-chevron-down"></i><a class="mais">Mais</a></li>
-                <button type="submit" class="button-eggtar" style="width:12em; padding:15px; margin-top:5px; float:left;">Eggtar</button>
+                <button type="submit" class="button-eggtar" style="width:12em; padding:15px; margin-top:5px; float:left;" onclick="pesquisar()">Eggtar</button>
             </ul>
         </div>
     </header>
@@ -40,9 +40,15 @@
     <section class="pesquisar">
         <div class="container">
             <div class="box-2">
-                
-                <input type="text" placeholder="&#128269; Pesquisar">
+                <input type="text" placeholder="       Buscar na socialegg">
             </div>
+            <section class="moments">
+                <div class="container">
+                    <div class="box-moments">
+                        <h1>Assuntos do Momento</h1>
+                    </div>
+                </div>
+            </section>
         </div>
     </section>
 </body>

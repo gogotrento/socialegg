@@ -94,7 +94,7 @@ ul::marker{
 .box{
     background: transparent;
     padding: 5px;
-    margin-left: 120px;
+    margin-left: 72px;
     width: 520px;
     height: 240px;
     border: solid 1px grey;
@@ -144,16 +144,53 @@ ul::marker{
 }
 .pesquisar input{
     display: inline-block;
-    width: 300px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    margin-top: 20px;
+    background-color: rgb(46, 45, 45);
+    border: 1px solid rgb(46, 45, 45);
+    font-size: 13px;
+    color: white;
+    font-family: 'Open-Sans', sans-serif;
+    border-radius: 20px 20px;
+    margin-top: 10px;
     height: 2.8em;
     width: 25em;
 }
 .pesquisar input::placeholder{
     font-family: 'Open-Sans', sans-serif;
-    color: white;
+    color: rgb(201, 200, 200);
     font-size: 16px;
 }
-
+.pesquisar input:active, .pesquisar input:focus{
+    transition-duration: 0.5s;
+    outline: 0;
+    border: 3px solid yellow;
+    max-width: 25em;
+    max-height: 2.8em;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+.moments{
+    display: block;
+    padding: 5.2em;
+    width: 9.7em;
+    height: 20em;
+    margin-top: 30px;
+    background-color: rgb(46, 45, 45);
+    border: 1px solid rgb(46, 45, 45);
+    border-radius: 20px 20px 20px 20px;
+}
+.box-moments{
+    display: block;
+    position: relative;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    width: 14em;
+    height: 2em;
+    background-color: rgb(46, 45, 45);
+    right: 5.6em;
+}
+.box-moments h1{
+    background-color: rgb(46, 45, 45);
+    font-family: 'Open-Sans', sans-serif;
+}
