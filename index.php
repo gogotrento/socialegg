@@ -41,13 +41,18 @@
     <section class="pesquisar">
         <div class="container">
             <div class="box-2">
-            <i class="fa-duotone fa-magnifying-glass"><input type="text" placeholder="Buscar na socialegg"></i>
+                <input type="text" placeholder="Buscar na socialegg">
+                <button type="submit" class="lupa">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
             </div>
             <section class="moments">
-                <div class="container">
-                    <div class="box-moments">
-                        <h1>Assuntos do Momento</h1>
-                    </div>
+                <div class="h1-moments">
+                    <h1>Assuntos do Momento</h1>
+                    <span class="itens-assuntos">Corinthians</span><br>
+                    <span class="itens-assuntos">Lula</span><br>
+                    <span class="itens-assuntos">Novo twitter</span><br>
+                    <span class="itens-assuntos">Elon Musk vai falir</span><br>
                 </div>
             </section>
         </div>
