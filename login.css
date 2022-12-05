@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.main-login{
+    color: white;
+    font-family: 'Segoe UI';
+    width: 600px;
+    height: 550px;
+    background-color: black;
+    border-radius: 9px;
+    margin-top: 40px;
+}
+
+
+h1{
+    font-size: 35px;
+    margin-left: -350px;
+}
+
+#input-usuario, #input-senha{
+    color: white;
+    margin-left: 0px;
+    height: 53px;
+    width: 440px;
+    border-radius: 7px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+#input-usuario:active, #input-senha:active, #input-senha:focus, #input-usuario:focus, #input-senha:focus-visible, #input-usuario:focus-visible, #input-senha:hover, #input-usuario:hover{
+    color: white;
+    margin-left: 0px;
+    height: 53px;
+    width: 440px;
+    border-radius: 7px;
+    background-color: black;
+    border: 5px solid yellow;
+}
+
+#input-senha {
+    margin-top: 20px;
+}
+
+input{
+    margin-top:5px;
+    width: 430px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    height: 1px;
+}
+
+
+input:focus{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    box-shadow: 0;
+    outline: 0;
+    margin-top: -10px;
+    height: 25px;
+}
+
+input:active{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    box-shadow: 0;
+    outline: 0;
+    margin-top: -10px;
+    height: 25px;
+}
+
+input:focus-visible{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    box-shadow: 0;
+    outline: 0;
+    margin-top: -10px;
+    height: 25px;
+}
+
+label{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: -360px;
+    font-size: 20px;
+}
+
+label:hover{
+    font-size: 16px;
+}
+
+#label-usuario{
+    margin-left: -350px !important;
+}
+
+.fa-egg{
+    color: white;
+    font-size: 40px;
+    line-height: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: -320px;
+}
+
+a:visited{
+    color: yellow;
+}
+
+#button-entrar{
+    border-radius: 7px;
+    color: solid black;
+    background-color: white;
+    width: 400px;
+    height: 55px;
+    margin-top: 130px;
+    font-size: 21px;
+}
